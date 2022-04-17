@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: green url('./../imagens/Fundo.jpg') left center fixed;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+h1 {
+    background-color: rgb(0, 128, 0);
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    width: 55vw;
+    height: 65vh;
+    border: white solid 2px;
+    border-radius: 10px;
+    background: green url('./../imagens/Fundo-1.jpg') center center fixed;
+    padding: 20px;
+
+}
+
+.conteudo {
+    margin: 10px;
+    padding: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    background-color: green;
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: green;
+    background-color: yellow;
+}
+
+
+@media(max-width: 769px) {
+    body {
+        font-size: 15px;
+    }
+
+    .principal {
+        width: 80vw;
+        height: 58vh;
+    }
+
+    button {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 426px) {
+    body {
+        font-size: 12px;
+    }
+.principal {
+    width: 80vw;
+    height: 58vh;
+}
+}
+
+@media(max-width: 321px) {
+    body {
+        font-size: 12px;
+        color: yellow;
+        
+    }
+
+    .principal {
+        width: 90vw;
+        height: 55vh;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+    
+}

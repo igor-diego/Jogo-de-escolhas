@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: green url('./../imagens/Fundo.jpg') no-repeat left center fixed;
+    background-size: cover;
+    color: rgb(255, 255, 0);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+h1 {
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 0);
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    background: url('./../imagens/Background-walter.jpg') center center fixed;
+    display: block;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 75vw;
+    height: 75vh;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.Conteudo {
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px green;
+}
+
+.Conteudo2 {
+    padding: 5px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 200px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 150px;
+    height: 55px;
+    cursor: pointer;
+    background-color: rgb(0,128,0);
+    color: rgb(255, 255, 0);
+    border-radius: 10px;
+}
+
+button:hover {
+    color: green;
+    background-color:rgb(255, 255, 0)
+    
+}
+
+@media(max-width:1024px) {
+    body{
+        width: 100%;
+        width: 100%;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal {
+        width: 90vw;
+        height: 70vh;
+    }
+}
+
+@media(max-width: 768px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal {
+        width: 90vw;
+        height: 70vh;
+    }
+
+    bottom{
+        display: flex;
+    } 
+    .botao {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:426px) {
+    
+    body {
+        font-size: 12px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        display: flex;
+        height: 50px;
+    }
+    
+    h1 {
+        margin-top: 15px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .principal {
+        width: 90vw;
+        height: 60vh;
+    }
+}
+
+@media(max-width: 376px) {
+    body {
+        font-size: 12px;
+    }
+    .principal {
+        width: 85vw;
+        height: 70vh;
+    }
+}
+
+@media(max-width: 321px) {
+    body {
+        font-size: 12px;
+    }
+    .principal {
+        width: 90vw;
+        height: 75vh;
+    }
+}
