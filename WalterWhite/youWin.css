@@ -34,7 +34,7 @@ main {
 }
 
 .gif {
-    background: green url('https://c.tenor.com/IF-Uibe-LV8AAAAC/lahiru-pathum.gif') right bottom;
+    background: green url('./../imagens/Walter-Win.gif') right bottom;
     background-size: cover;
     width: 60vw;
     height: 60vh;
@@ -74,4 +74,56 @@ button:hover {
     background-color: rgb(255, 255, 0);
     transition: 2s;
 
+}
+
+@media(max-width: 769px) {
+
+    body {
+        height: 100%;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .gif {
+        width: 85vw;
+        height: 55vh;
+    }
+}
+
+@media(max-width: 426px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:  25px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        padding: 5px;
+    }
+
+    .gif {
+        width: 95vw;
+        height: 60vh;
+        background-position: center center;
+        margin-top: 110px;
+    }
+
+    .botao {
+        margin-top: -10px;
+    }
+}
+
+@media(max-width: 321px) {
+    .gif {
+        width: 90vw;
+        height: 60vh;
+    }
 }

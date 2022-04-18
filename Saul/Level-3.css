@@ -1,29 +1,27 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background: green url('./../imagens/Fundo.jpg') left center fixed;
-    color: yellow;
     font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    background: green url(./../imagens/Fundo.jpg) center center fixed;
+    background-size: cover;
 }
 
 header {
     display: flex;
-    height: 100px;
     justify-content: center;
     align-items: center;
-        
+    height: 70px;
+    margin-top: 35px;
 }
 
 h1 {
     background-color: rgb(0, 128, 0);
-    color: yellow;
-    text-shadow: 2px 2px black;
+    color: rgb(255, 255, 0);
     font-family: 'Luckiest Guy', cursive;
     font-family: 'Rubik Wet Paint', cursive;
 }
@@ -35,38 +33,41 @@ main {
 }
 
 .principal {
-    width: 55vw;
+    background: url('./../imagens/huel.gif') center center ;
+    background-size: cover; 
+    display: block;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 85vw;
     height: 65vh;
-    border: white solid 2px;
-    border-radius: 10px;
-    background: green url('./../imagens/say-my-name.gif') no-repeat center center ;
-    background-size: cover;
-    padding: 20px;
-
+    padding: 15px;
+    margin-top: 20px;
 }
 
 .conteudo {
-    margin: 10px;
-    padding: 5px;
-    text-shadow: 2px 2px black;
+    text-align: center;
+    padding: 10px;
+
 }
 
-.botão {
+
+.botao {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
+    margin-top: 30px;
 }
 
 button {
-    width: 120px;
-    height: 50px;
-    background-color: green;
-    color: yellow;
     text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 10px;
+    font-weight: bolder;
+    width: 150px;
+    height: 55px;
     cursor: pointer;
-    margin-top: 300px;
+    background-color: rgb(0,128,0);
+    color: rgb(255, 255, 0);
+    border-radius: 10px;
 }
 
 button:hover {
@@ -78,13 +79,13 @@ button:hover {
 
 }
 
-@media(max-width:465px) {
+@media(max-width:426px) {
+
     body {
         font-size: 12px;
     }
-
     .principal {
-        width: 85vw;
-        height: 60vh;
+        width: 95vw;
+        height: 55vh;
     }
 }

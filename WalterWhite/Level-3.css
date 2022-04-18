@@ -39,7 +39,8 @@ main {
     height: 65vh;
     border: white solid 2px;
     border-radius: 10px;
-    background: green url('./../imagens/Fundo-1.jpg') center center fixed;
+    background: green url('./../imagens/jesse-pinkman-science.gif')  left bottom ;
+    background-size: cover;
     padding: 20px;
 
 }
@@ -54,6 +55,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    margin-top: 295px;
 }
 
 button {
@@ -65,11 +68,16 @@ button {
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
+
 }
 
 button:hover {
+    width: 200px;
+    height: 80px;
     color: green;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
+    transition: 2s;
+
 }
 
 
@@ -93,25 +101,49 @@ button:hover {
         font-size: 12px;
     }
 .principal {
-    width: 80vw;
-    height: 58vh;
+    width: 95vw;
+    height: 65vh;
+    background: green url('./../imagens/jesse-pinkman-science.gif') no-repeat  center bottom ;
+    background-size: cover ;
 }
+
 }
+
+@media(max-width: 376px) {
+    body {
+        height: 100%;
+    }
+
+    .principal {
+        width: 95vw;
+        height: 60vh;
+        background: green url('./../imagens/jesse-pinkman-science.gif') no-repeat  center bottom ;
+        background-size: cover ;
+        
+    }
+
+
+}
+
 
 @media(max-width: 321px) {
     body {
+        height: 100%;
         font-size: 12px;
         color: yellow;
+        
         
     }
 
     .principal {
-        width: 90vw;
-        height: 55vh;
+        width: 100vw;
+        height: 50vh;
+        background: green url('./../imagens/jesse-pinkman-science.gif') no-repeat  center bottom ;
+        background-size: cover ;
     }
 
-    button {
-        margin-top: 10px;
+    .botao {
+        margin-top: -125px;
     }
     
 }

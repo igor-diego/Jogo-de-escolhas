@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    background: green url(./../imagens/Fundo.jpg) center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-top: 35px;
+}
+
+h1 {
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 0);
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    background: url('./../imagens/Goodman2.gif') center bottom ;
+    background-size: cover; 
+    display: block;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 65vw;
+    height: 65vh;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.conteudo {
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 30px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 150px;
+    height: 55px;
+    cursor: pointer;
+    background-color: rgb(0,128,0);
+    color: rgb(255, 255, 0);
+    border-radius: 10px;
+}
+
+button:hover {
+    width: 200px;
+    height: 80px;
+    color: green;
+    background-color: rgb(255, 255, 0);
+    transition: 2s;
+
+}
+
+@media(max-width:1441px) {
+    .principal {
+        width: 85vw;
+    }
+}
+
+@media(max-width:1025px) {
+    .principal {
+        width: 95vw;
+        height: 60vh;
+    }
+}
+
+@media(max-width:426px) {
+    body {
+        font-size: 12px;
+        height: 100%;
+    }
+    .principal {
+        background: green url('./../imagens/Goodman2.gif') right bottom;
+        background-size: cover;
+        width: 100vw;
+        height: 70vh;
+
+    }
+}
