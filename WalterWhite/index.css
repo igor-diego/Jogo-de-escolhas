@@ -105,6 +105,7 @@ button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+    
     }
 
     .principal {
@@ -114,10 +115,11 @@ button:hover {
 
     bottom{
         display: flex;
+        margin-top: 0px;
     } 
     .botao {
-        margin-top: 30px;
-    }
+        margin-top: 0px;
+
 }
 
 @media(max-width:426px) {
@@ -148,6 +150,10 @@ button:hover {
         width: 90vw;
         height: 60vh;
     }
+
+    .botao {
+        margin-top: -85px;
+    }
 }
 
 @media(max-width: 376px) {
@@ -168,4 +174,5 @@ button:hover {
         width: 90vw;
         height: 75vh;
     }
+}
 }
