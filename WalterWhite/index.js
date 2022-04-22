@@ -40,7 +40,7 @@ function respostaTrês() {
     while(true) {
         if(resposta == 2) {
             alert('PARABÉNS VOCÊ PASSOU POR TODAS AS FASES!!!') 
-                location.href = 'YouWin.html'
+                location.href = 'youWin.html'
                 break;
         }else if(resposta == 1 || resposta == 3) {
             alert('RESPOSTA ERRADA :( \nGAME OVER')
