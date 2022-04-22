@@ -27,6 +27,7 @@ function respostaDois() {
         }else if (resposta == 1 || resposta == 2) {
             alert('RESPOSTA ERRADA :( \nGAME OVER')
             location.href = 'GameOver.html'
+            break;
         }else {
             alert('Digite apenas 1, 2 ou 3')
             resposta = Number(prompt('Digite sua resposta'))

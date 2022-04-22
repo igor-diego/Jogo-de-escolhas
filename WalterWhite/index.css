@@ -118,7 +118,7 @@ button:hover {
         margin-top: 0px;
     } 
     .botao {
-        margin-top: 0px;
+        margin-top: 130px;
 
 }
 
@@ -152,7 +152,7 @@ button:hover {
     }
 
     .botao {
-        margin-top: -85px;
+        margin-top: 45px;
     }
 }
 
@@ -164,6 +164,11 @@ button:hover {
         width: 85vw;
         height: 70vh;
     }
+    
+    .botao {
+        margin-top: 60px;
+    }
+
 }
 
 @media(max-width: 321px) {
